@@ -67,6 +67,10 @@ function renderCards(data) {
             openModal(content)
             console.log(content)
         })
+
+        link.addEventListener('click', ()=> {
+            window.open(`${el.links.html}`, '_blank');
+        })
     })
 
     loading.classList.remove('show')
