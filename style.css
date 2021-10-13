@@ -18,6 +18,7 @@ body {
     font-family: 'Lato', sans-serif;
     color: var(--white);
     background-color: var(--black);
+
 }
 
 /* ================================================================= */
@@ -231,5 +232,36 @@ main {
 
         .line .info-wr p {
             font-size: 1.2rem;
+        }
+    }
+
+    @media (max-width: 580px) {
+        .line {
+            flex-direction: row;
+        }
+        .global {
+            /* max-width: 300px; */
+            margin: 0 auto;
+        }
+        .line .card {
+            height: 210px;
+            width: 300px;
+
+        }
+        .line .img-wr {
+            height: 130px;
+            width: 90px;
+        }
+
+        .line .info-wr {
+            margin: 0;
+        }
+
+        .line .info-wr p {
+            font-size: 1.2rem;
+        }
+
+        .line main {
+           /* flex-direction: row; */
         }
     }
