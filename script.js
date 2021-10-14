@@ -1,4 +1,3 @@
-
 (function () {
 const API_KEY = 'jgPdiLGtunTh9vYLB0iKiSYZk1ayrasiuf8rKc7Pop4';
 // =======================================================================
@@ -97,6 +96,7 @@ function scrollTriger() {
 }
 
 // ======================================================================
+
 setTimeout(showLoading,1000)
 
 window.addEventListener('scroll', scrollTriger)
