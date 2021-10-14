@@ -103,11 +103,15 @@ window.addEventListener('scroll', scrollTriger)
 
 
 grid.addEventListener('click', () => {
-    main.classList.remove('line')
+    main.classList.remove('line');
+    list.classList.remove('act');
+    grid.classList.add('act');
 })
 
 list.addEventListener('click', () => {
-    main.classList.add('line')
+    main.classList.add('line');
+    grid.classList.remove('act');
+    list.classList.add('act');
 })
 
 lightbox.addEventListener('click', (e)=> {
