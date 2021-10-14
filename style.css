@@ -208,9 +208,10 @@ main {
 
 /* ========================== */
     @media (max-width: 1100px) {
-        .view-picker {
-            margin-right: 3.5em;
+        header {
+            justify-content: center;
         }
+
         main {
             justify-content: space-around;
             padding: 30px;
@@ -239,7 +240,7 @@ main {
             flex-direction: row;
         }
         .global {
-            margin: 0 auto;
+            margin: 2em auto;
         }
         .line .card {
             height: 210px;

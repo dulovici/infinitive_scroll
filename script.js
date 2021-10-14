@@ -11,6 +11,8 @@ const lightbox = document.querySelector('.lightbox');
 const lightboxImg = document.querySelector('.lightbox img');
 
 
+
+
 let page = 1;
 
 function getData() {
